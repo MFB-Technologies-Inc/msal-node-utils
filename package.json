@@ -1,7 +1,7 @@
 {
-  "name": "@mfbtech/package-name",
+  "name": "@mfbtech/msal-node-utils",
   "version": "1.0.0",
-  "description": "Package description",
+  "description": "Utilities to assist with MSAL authentication",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@rushstack/eslint-config": "~3.3.4",
     "@types/jest": "^29.5.14",
-    "@types/node": "~20.14.15",
+    "@types/node": "^22.13.10",
     "@typescript-eslint/eslint-plugin": "~6.4.1",
     "@typescript-eslint/parser": "~6.4.1",
     "eslint": "8.48.0",
@@ -28,5 +28,8 @@
     "typescript": "~5.8.2"
   },
   "dependencies": {
+    "@azure/msal-node": "^3.3.0",
+    "@azure/msal-node-extensions": "^1.5.7",
+    "open": "^10.1.0"
   }
 }
